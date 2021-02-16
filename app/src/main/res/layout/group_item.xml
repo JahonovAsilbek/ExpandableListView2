@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/titles"
+        android:text="Moblies"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:background="#0082E5"
+        android:gravity="center|start"
+        android:paddingLeft="20dp"
+        android:layout_weight="9"
+        android:layout_width="0dp"
+        android:layout_height="80dp" />
+
+    <ImageView
+        android:src="@drawable/ic_arrow_right"
+        android:layout_weight="1"
+        android:padding="3dp"
+        android:background="#0082E5"
+        android:layout_width="0dp"
+        android:layout_height="80dp" />
+</LinearLayout>
